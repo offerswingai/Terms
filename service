@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OfferSwing 服務條款 - AI面試準備應用程式">
+    <title>OfferSwing 服務條款</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft JhengHei', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        /* 響應式設計 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 28px !important;
+            }
+            h2 {
+                font-size: 20px !important;
+            }
+        }
+        
+        /* 標題樣式 */
+        h1 {
+            color: #2563eb;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7c3aed;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        h2 {
+            color: #1f2937;
+            font-size: 24px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            padding-left: 10px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        /* 段落樣式 */
+        p {
+            color: #374151;
+            margin-bottom: 15px;
+            text-align: justify;
+            font-size: 16px;
+        }
+        
+        /* 列表樣式 */
+        ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            color: #4b5563;
+            margin: 8px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        li::marker {
+            color: #2563eb;
+        }
+        
+        /* 聯絡資訊樣式 */
+        .contact-info {
+            background-color: #f3f4f6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .contact-info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .contact-info li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info li::before {
+            content: "→";
+            color: #2563eb;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        /* 頁尾樣式 */
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e5e7eb;
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .logo-text {
+            font-size: 40px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* 強調文字 */
+        strong {
+            color: #1f2937;
+            font-weight: 600;
+        }
+        
+        /* 連結樣式 */
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: #7c3aed;
+            text-decoration: underline;
+        }
+        
+        /* 卡片式區塊 */
+        .info-card {
+            background-color: #eff6ff;
+            border: 1px solid #dbeafe;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .warning-card {
+            background-color: #fef3c7;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-text">OfferSwing</div>
+        </div>
+        
+        <h1>服務條款</h1>
+        <p class="subtitle">AI 面試準備應用程式</p>
+        <p class="last-updated">最後更新日期：2025年8月2日</p>
+        
+        <h2>1. 服務說明</h2>
+        <p>OfferSwing（以下簡稱「本服務」）是一款基於人工智慧技術的面試準備應用程式，提供以下核心功能：</p>
+        <ul>
+            <li><strong>AI 深度面試</strong>：根據目標公司和職位生成客製化面試問題</li>
+            <li><strong>客製化面試</strong>：針對特定技術主題進行專業測驗</li>
+            <li><strong>語音錄製與分析</strong>：記錄用戶回答並提供AI回饋</li>
+            <li><strong>面試表現追蹤</strong>：記錄學習進度和改進建議</li>
+            <li><strong>知識測驗</strong>：鞏固專業技能的互動式測驗</li>
+        </ul>
+        
+        <h2>2. 用戶責任</h2>
+        <p>使用本服務時，您同意：</p>
+        <ul>
+            <li>提供真實、準確的個人資訊</li>
+            <li>不得利用本服務進行任何違法或不當行為</li>
+            <li>尊重智慧財產權，不得複製、分發本服務內容</li>
+            <li>負責保管您的帳戶安全</li>
+            <li>確保您已達到使用年齡要求（13歲以上）</li>
+        </ul>
+        
+        <h2>3. 服務內容與限制</h2>
+        <p>本服務僅供面試準備和教育用途，我們不保證：</p>
+        <ul>
+            <li>使用本服務必定能通過面試</li>
+            <li>AI生成內容的完全準確性</li>
+            <li>服務的不間斷可用性</li>
+            <li>第三方公司資訊的即時性和準確性</li>
+        </ul>
+        
+        <h2>4. 第三方服務</h2>
+        <p>本服務整合以下第三方服務：</p>
+        <ul>
+            <li><strong>OpenAI GPT API</strong>：用於生成面試問題和分析回饋</li>
+            <li><strong>Google API</strong>：用於搜尋公司相關資訊</li>
+            <li><strong>Microsoft Azure API</strong>：用於生成面試官語音</li>
+            <li><strong>Firebase</strong>：用於用戶認證和資料存儲</li>
+            <li><strong>Apple ID / Google 登入</strong>：用於身份驗證</li>
+        </ul>
+        <div class="info-card">
+            <p>這些服務有各自的使用條款，請您一併遵守。</p>
+        </div>
+        
+        <h2>5. 智慧財產權</h2>
+        <p>本服務的所有內容，包括但不限於軟體、介面設計、圖片、文字等，均受智慧財產權法律保護。用戶僅獲得有限的使用權，不得進行商業用途的複製或分發。</p>
+        
+        <h2>6. 免責聲明</h2>
+        <p>在法律允許的最大範圍內，我們對以下情況不承擔責任：</p>
+        <ul>
+            <li>因使用本服務而產生的任何直接或間接損失</li>
+            <li>第三方內容的準確性或可靠性</li>
+            <li>網路連線中斷或技術故障</li>
+            <li>用戶資料遺失或損壞</li>
+        </ul>
+        
+        <h2>7. 服務修改與終止</h2>
+        <p>我們保留隨時修改、暫停或終止本服務的權利，恕不另行通知。重大變更將透過應用程式內公告或電子郵件通知用戶。</p>
+        
+        <h2>8. 條款修改</h2>
+        <p>我們可能會不定期更新本服務條款。修改後的條款將在應用程式內公布，繼續使用本服務即表示您接受修改後的條款。</p>
+        
+        <h2>9. 聯絡方式</h2>
+        <p>如對本服務條款有任何疑問，請透過以下方式聯絡我們：</p>
+        <div class="contact-info">
+            <ul>
+                <li>電子郵件：<a href="mailto:offerswingai@gmail.com">offerswingai@gmail.com</a></li>
+                <li>Instagram：<a href="https://instagram.com/offerswing.tw" target="_blank">@offerswing.tw</a></li>
+            </ul>
+            <p style="margin-top: 15px; color: #6b7280;">我們將在 1-2 個工作天內為您解答。</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 OfferSwing. All rights reserved.</p>
+            <p>本服務條款受中華民國法律管轄</p>
+        </div>
+    </div>
+</body>
+</html>
