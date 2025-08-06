@@ -190,6 +190,78 @@
             padding: 15px;
             margin: 20px 0;
         }
+        
+        /* 隱私政策連結區塊 */
+        .privacy-link-section {
+            margin-top: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #eff6ff 0%, #f3e8ff 100%);
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #e0e7ff;
+        }
+        
+        .privacy-link-section h3 {
+            color: #2563eb;
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .privacy-link-section p {
+            color: #4b5563;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .privacy-link-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+        }
+        
+        .privacy-link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+            text-decoration: none;
+        }
+        
+        /* 文件導覽 */
+        .doc-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .doc-nav a {
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .doc-nav a.active {
+            background-color: #2563eb;
+            color: white;
+        }
+        
+        .doc-nav a:not(.active) {
+            background-color: #f3f4f6;
+            color: #6b7280;
+        }
+        
+        .doc-nav a:not(.active):hover {
+            background-color: #e5e7eb;
+            color: #4b5563;
+        }
     </style>
 </head>
 <body>
@@ -272,13 +344,21 @@
             <p style="margin-top: 15px; color: #6b7280;">我們將在 1-2 個工作天內為您解答。</p>
         </div>
         
+        <!-- 隱私政策連結區塊 -->
+        <div class="privacy-link-section">
+            <h3>了解我們如何保護您的隱私</h3>
+            <p>我們致力於保護您的個人資訊。請查閱我們的隱私政策，了解資料收集、使用和保護的詳細說明。</p>
+            <a href="privacy-policy.html" class="privacy-link-button">查看隱私政策</a>
+        </div>
+        
         <div class="footer">
-            <p>&copy; 2025 OfferSwing. All rights reserved.</p>
+            <!-- 文件導覽 -->
+            <div class="doc-nav">
+                <a href="terms-of-service.html" class="active">服務條款</a>
+                <a href="privacy-policy.html">隱私政策</a>
+            </div>
+            <p style="margin-top: 20px;">&copy; 2025 OfferSwing. All rights reserved.</p>
             <p>本服務條款受中華民國法律管轄</p>
-            <p style="margin-top: 10px;">
-                <a href="termsofservice.html">服務條款</a> | 
-                <a href="privacypolicy.html"><strong>隱私政策</strong></a>
-            </p>
         </div>
     </div>
 </body>
