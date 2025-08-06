@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OfferSwing 隱私政策 - 了解我們如何保護您的個人資訊">
+    <title>OfferSwing 隱私政策</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft JhengHei', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        /* 響應式設計 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 28px !important;
+            }
+            h2 {
+                font-size: 20px !important;
+            }
+            h3 {
+                font-size: 18px !important;
+            }
+        }
+        
+        /* 標題樣式 */
+        h1 {
+            color: #2563eb;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7c3aed;
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        h2 {
+            color: #1f2937;
+            font-size: 24px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            padding-left: 10px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        h3 {
+            color: #374151;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            padding-left: 20px;
+        }
+        
+        /* 段落樣式 */
+        p {
+            color: #374151;
+            margin-bottom: 15px;
+            text-align: justify;
+            font-size: 16px;
+        }
+        
+        /* 列表樣式 */
+        ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            color: #4b5563;
+            margin: 8px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        li::marker {
+            color: #2563eb;
+        }
+        
+        /* 第三方服務區塊 */
+        .third-party-section {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .third-party-section h3 {
+            color: #2563eb;
+            margin-top: 0;
+            padding-left: 0;
+        }
+        
+        /* 重要資訊卡片 */
+        .info-card {
+            background-color: #eff6ff;
+            border: 1px solid #dbeafe;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .warning-card {
+            background-color: #fef3c7;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .rights-card {
+            background-color: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        /* 聯絡資訊樣式 */
+        .contact-info {
+            background-color: #f3f4f6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .contact-info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .contact-info li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info li::before {
+            content: "→";
+            color: #2563eb;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        /* 頁尾樣式 */
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e5e7eb;
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .logo-text {
+            font-size: 40px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* 強調文字 */
+        strong {
+            color: #1f2937;
+            font-weight: 600;
+        }
+        
+        /* 連結樣式 */
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: #7c3aed;
+            text-decoration: underline;
+        }
+        
+        /* 隱私權圖示 */
+        .privacy-icon {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .privacy-icon::before {
+            content: "🔒";
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-text">OfferSwing</div>
+        </div>
+        
+        <h1>隱私政策</h1>
+        <p class="subtitle">您的隱私，我們的承諾</p>
+        <p class="last-updated">最後更新日期：2025年8月2日</p>
+        
+        <div class="privacy-icon"></div>
+        
+        <h2>1. 政策概述</h2>
+        <p>
+            我們深度重視您的隱私權。本隱私政策說明 OfferSwing 如何收集、使用、
+            儲存和保護您的個人資訊。使用我們的服務即表示您同意本政策的內容。
+        </p>
+        
+        <h2>2. 收集的資訊類型</h2>
+        
+        <h3>2.1 帳戶資訊</h3>
+        <ul>
+            <li>Apple ID 或 Google 帳戶的基本資訊（姓名、電子郵件地址）</li>
+            <li>用戶設定的偏好配置</li>
+            <li>登入時間和使用記錄</li>
+        </ul>
+        
+        <h3>2.2 面試相關資訊</h3>
+        <ul>
+            <li>語音錄製內容（僅在您明確同意時）</li>
+            <li>面試問題回答的文字內容</li>
+            <li>目標公司和職位資訊</li>
+            <li>履歷和自我介紹內容</li>
+            <li>面試表現分析結果</li>
+        </ul>
+        
+        <h3>2.3 技術資訊</h3>
+        <ul>
+            <li>裝置資訊（型號、作業系統版本）</li>
+            <li>應用程式使用統計</li>
+            <li>錯誤報告和診斷資訊</li>
+            <li>網路連線狀態</li>
+        </ul>
+        
+        <h2>3. 資訊使用目的</h2>
+        <p>我們使用您的資訊來：</p>
+        <ul>
+            <li>提供個人化的面試題目生成服務</li>
+            <li>分析您的回答並提供改進建議</li>
+            <li>追蹤學習進度和成果</li>
+            <li>改善服務品質和用戶體驗</li>
+            <li>進行技術支援和問題排解</li>
+            <li>發送重要的服務更新通知</li>
+        </ul>
+        
+        <h2>4. 第三方服務商</h2>
+        <p>為提供完整服務，我們與以下第三方合作：</p>
+        
+        <div class="third-party-section">
+            <h3>4.1 OpenAI</h3>
+            <ul>
+                <li><strong>用途</strong>：生成面試問題和分析回答內容</li>
+                <li><strong>傳輸資料</strong>：去識別化的面試相關文字</li>
+                <li><strong>隱私政策</strong>：<a href="https://openai.com/privacy/" target="_blank">https://openai.com/privacy/</a></li>
+            </ul>
+        </div>
+        
+        <div class="third-party-section">
+            <h3>4.2 Microsoft Azure</h3>
+            <ul>
+                <li><strong>用途</strong>：文字轉語音服務（生成面試官語音）</li>
+                <li><strong>傳輸資料</strong>：面試問題文字內容</li>
+                <li><strong>隱私政策</strong>：<a href="https://privacy.microsoft.com/privacystatement" target="_blank">https://privacy.microsoft.com/privacystatement</a></li>
+            </ul>
+        </div>
+        
+        <div class="third-party-section">
+            <h3>4.3 Google Services</h3>
+            <ul>
+                <li><strong>用途</strong>：搜尋公司資訊、身份驗證</li>
+                <li><strong>傳輸資料</strong>：搜尋關鍵字、帳戶驗證資訊</li>
+                <li><strong>隱私政策</strong>：<a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            </ul>
+        </div>
+        
+        <div class="third-party-section">
+            <h3>4.4 Firebase (Google)</h3>
+            <ul>
+                <li><strong>用途</strong>：用戶認證、資料儲存、應用程式分析</li>
+                <li><strong>傳輸資料</strong>：帳戶資訊、使用統計</li>
+                <li><strong>隱私政策</strong>：<a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+            </ul>
+        </div>
+        
+        <div class="third-party-section">
+            <h3>4.5 Apple</h3>
+            <ul>
+                <li><strong>用途</strong>：Apple ID 登入服務</li>
+                <li><strong>傳輸資料</strong>：基本帳戶資訊</li>
+                <li><strong>隱私政策</strong>：<a href="https://www.apple.com/privacy/" target="_blank">https://www.apple.com/privacy/</a></li>
+            </ul>
+        </div>
+        
+        <h2>5. 語音資料處理</h2>
+        <div class="info-card">
+            <ul>
+                <li>語音錄製需要您的明確同意</li>
+                <li>錄音檔案僅在本地裝置暫時儲存</li>
+                <li>語音轉文字後立即刪除原始錄音檔</li>
+                <li>文字內容經去識別化處理後用於AI分析</li>
+                <li>您可隨時在設定中關閉語音功能</li>
+            </ul>
+        </div>
+        
+        <h2>6. 資料儲存與安全</h2>
+        <ul>
+            <li>採用業界標準的加密技術保護資料傳輸</li>
+            <li>敏感資料在伺服器端進行加密儲存</li>
+            <li>定期進行安全性檢查和更新</li>
+            <li>限制員工存取權限，僅技術維護人員可接觸</li>
+            <li>資料儲存於具備安全認證的雲端服務商</li>
+        </ul>
+        
+        <h2>7. 資料保留期限</h2>
+        <ul>
+            <li><strong>帳戶資訊</strong>：帳戶有效期間及刪除後30天</li>
+            <li><strong>面試紀錄</strong>：最長保留1年，用於學習追蹤</li>
+            <li><strong>語音錄製</strong>：僅在分析期間暫存，完成後立即刪除</li>
+            <li><strong>技術日誌</strong>：最長保留90天</li>
+            <li><strong>匿名化統計資料</strong>：可長期保留用於服務改善</li>
+        </ul>
+        
+        <h2>8. 您的權利</h2>
+        <div class="rights-card">
+            <p>根據相關法律，您享有以下權利：</p>
+            <ul>
+                <li>查閱您的個人資料</li>
+                <li>要求更正不準確的資料</li>
+                <li>要求刪除您的帳戶和相關資料</li>
+                <li>要求停止處理特定資料</li>
+                <li>資料可攜性（匯出您的資料）</li>
+                <li>隨時撤回同意（如語音錄製功能）</li>
+            </ul>
+        </div>
+        
+        <h2>9. 兒童隱私保護</h2>
+        <div class="warning-card">
+            <p>
+                本服務不針對13歲以下兒童設計。我們不會故意收集13歲以下兒童的個人資訊。
+                如發現此類情況，我們將立即刪除相關資料。
+            </p>
+        </div>
+        
+        <h2>10. 跨境資料傳輸</h2>
+        <p>
+            為提供服務，您的資料可能會傳輸至其他國家或地區的伺服器。
+            我們確保這些傳輸符合適當的安全標準和法律要求。
+        </p>
+        
+        <h2>11. 政策更新</h2>
+        <p>
+            我們可能會不定期更新本隱私政策。重大變更將透過應用程式內通知或電子郵件告知您。
+            建議您定期查閱最新版本。
+        </p>
+        
+        <h2>12. 聯絡我們</h2>
+        <p>如對本隱私政策有任何疑問，或需要行使您的權利，請透過以下方式聯絡我們：</p>
+        <div class="contact-info">
+            <ul>
+                <li>電子郵件：<a href="mailto:offerswingai@gmail.com">offerswingai@gmail.com</a></li>
+                <li>Instagram：<a href="https://instagram.com/offerswing.tw" target="_blank">@offerswing.tw</a></li>
+            </ul>
+            <p style="margin-top: 15px; color: #6b7280;">我們將在 1-2 個工作天內回覆您的查詢</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 OfferSwing. All rights reserved.</p>
+            <p>本隱私政策受中華民國法律管轄</p>
+            <p style="margin-top: 10px;">
+                <a href="terms-of-service.html">服務條款</a> | 
+                <a href="privacy-policy.html"><strong>隱私政策</strong></a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
